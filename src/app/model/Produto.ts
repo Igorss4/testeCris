@@ -1,3 +1,4 @@
+import { Categoria } from "./Categoria";
 import { Usuario } from "./Usuario";
 
 export class Produto {
@@ -7,4 +8,5 @@ export class Produto {
   public preco: number;
   public foto: string;
   public usuario: Usuario;
+  public categoria: Categoria;
 }
